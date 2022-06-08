@@ -285,5 +285,5 @@ defaults:
       type: posts
     values:
       layout: categories
-      comment: true
+      comments: true
       show_date: true
