@@ -1,1 +1,1 @@
-# minydinger.github.io
+# MinyDinger Blog
