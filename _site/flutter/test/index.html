@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Test | 미니딩거의 고양이</title>
+<!-- begin _includes/seo.html --><title>My First Contents | 미니딩거의 기술 블로그</title>
 <meta name="description" content="Hello">
 
 
@@ -21,9 +21,9 @@
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:site_name" content="미니딩거의 고양이">
-<meta property="og:title" content="Test">
-<meta property="og:url" content="http://localhost:4000/test/">
+<meta property="og:site_name" content="미니딩거의 기술 블로그">
+<meta property="og:title" content="My First Contents">
+<meta property="og:url" content="http://localhost:4000/flutter/test/">
 
 
   <meta property="og:description" content="Hello">
@@ -45,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/test/">
+<link rel="canonical" href="http://localhost:4000/flutter/test/">
 
 
 
@@ -71,7 +71,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="미니딩거의 고양이 Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="미니딩거의 기술 블로그 Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -112,14 +112,16 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/profile.jpg" alt="미니딩거의 고양이"></a>
+          <a class="site-logo" href="/"><img src="/assets/images/profile.jpg" alt="미니딩거의 기술 블로그"></a>
         
         <a class="site-title" href="/">
-          미니딩거의 고양이
+          미니딩거의 기술 블로그
           <span class="site-subtitle">내 머리속에 있는 냥이들을 살려보자</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+              <a href="/categories/">Category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tag</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -158,7 +160,17 @@
         <span class="sep">/</span>
       
       
-        <li class="current">Test</li>
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#flutter" itemprop="item"><span itemprop="name">Flutter</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">My First Contents</li>
       
     
   </ol>
@@ -172,7 +184,7 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Test">
+    <meta itemprop="headline" content="My First Contents">
     <meta itemprop="description" content="Hello">
     <meta itemprop="datePublished" content="2022-06-08T00:00:00+09:00">
     
@@ -181,7 +193,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/test/" class="u-url" itemprop="url">Test
+            <a href="http://localhost:4000/flutter/test/" class="u-url" itemprop="url">My First Contents
 </a>
           </h1>
           
@@ -215,6 +227,42 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#android" class="page__taxonomy-item p-category" rel="tag">android</a><span class="sep">, </span>
+    
+      <a href="/tags/#dart" class="page__taxonomy-item p-category" rel="tag">dart</a><span class="sep">, </span>
+    
+      <a href="/tags/#flutter" class="page__taxonomy-item p-category" rel="tag">flutter</a><span class="sep">, </span>
+    
+      <a href="/tags/#ios" class="page__taxonomy-item p-category" rel="tag">ios</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#flutter" class="page__taxonomy-item p-category" rel="tag">flutter</a>
+    
+    </span>
+  </p>
 
 
         
@@ -289,8 +337,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "http://localhost:4000/test/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/test"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "http://localhost:4000/flutter/test/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/flutter/test"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');

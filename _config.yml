@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "미니딩거의 고양이"
+title                    : "미니딩거의 기술 블로그"
 title_separator          : "|"
 subtitle                 : "내 머리속에 있는 냥이들을 살려보자"
 name                     : "MinyDinger"
@@ -108,26 +108,19 @@ author:
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MinyDinger's Tech Blog"
   location         : "Seoul, South Korea"
-  email            : "minydinger@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Minyoung-Jang"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/jmy9721/"
 
 # Site Footer
 footer:
@@ -257,16 +250,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled: 
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression

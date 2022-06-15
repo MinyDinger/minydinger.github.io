@@ -1,7 +1,7 @@
 var store = [{
-        "title": "Test",
-        "excerpt":"Hello  ","categories": [],
-        "tags": [],
-        "url": "/test/",
+        "title": "My First Contents",
+        "excerpt":"Hello  ","categories": ["flutter"],
+        "tags": ["dart","flutter","ios","android"],
+        "url": "/flutter/test/",
         "teaser": null
       }]
